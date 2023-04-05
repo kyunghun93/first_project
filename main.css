@@ -12,6 +12,7 @@
     font-family: "poppins", sans-serif;
 }
 
+
 :root {
     --main-color:#008148;
     --second-color:#1e3932;
@@ -23,7 +24,7 @@ section {
 
 *::selection{
     color: #fff;
-    background: var(--main-color);
+    background: color(--main-color);
 }
 
 img{
@@ -47,12 +48,12 @@ header{
 }
 
 .logo{
-    display: felx;
+    display: flex;
     text-align: center;
 }
 
 .logo img{
-    width:220px;
+    width:100%;
 
 }
 
@@ -174,7 +175,7 @@ header{
 
 .menu-container .box{
     flex: 1 1 10rem;
-    background: var(--main-color);
+    background: rgb(96, 225, 96);
     padding: 20px;
     display:flex;
     text-align: center;
@@ -249,4 +250,11 @@ font-size: 1.2rem;
     margin: 0.5rem 0 1rem;
     text-align: justify;
 }
+
+
+
+
+
+
+
 
